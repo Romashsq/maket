@@ -34,7 +34,7 @@ const films = [
 
 const render = (array) => {
     contentWrapper.innerHTML = ""
-
+    
     array.forEach((item) => {
         contentWrapper.insertAdjacentHTML("beforeend",
             `<div class="content-card-item">
